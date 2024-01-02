@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Suite" annotations="JDK" parallel="tests">
+         
+  <test name="SignupTestCasesClass">
+	 <classes>
+	   <class name="ProjectPackage.SignupTestCasesClass"/>
+	 </classes>
+   </test>
+   
+  <test name="LoginTestCasesClass">
+     <classes>
+       <class name="ProjectPackage.LoginTestCasesClass"/>
+     </classes>
+   </test>
+   
+    <test name="TransClass">
+     <classes>
+       <class name="ProjectPackage.TransClass"/>
+     </classes>
+   </test>
+</suite>
